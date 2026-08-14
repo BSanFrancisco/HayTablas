@@ -1,0 +1,22 @@
+name: tablas_multiplicar
+description: "Aplicación educativa para que niños practiquen y sean evaluados en las tablas de multiplicar."
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Persistencia local de los mejores tiempos (no requiere internet).
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
