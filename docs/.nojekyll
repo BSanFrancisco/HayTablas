@@ -1,3 +1,0 @@
-git add docs/.nojekyll
-   git commit -m "Agregar .nojekyll para GitHub Pages"
-   git push
